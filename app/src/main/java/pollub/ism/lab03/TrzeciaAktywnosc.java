@@ -24,7 +24,7 @@ public class TrzeciaAktywnosc extends AppCompatActivity {
         try{
             startActivity(intencja);
         }catch (ActivityNotFoundException e){
-            Toast.makeText(this,"Brak przeglądarki",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Brak przeglądarki przykro mi",Toast.LENGTH_LONG).show();
 
         }
     }
